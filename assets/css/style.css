@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&family=Open+Sans&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+
+}
+header{   
+    background-color: #034078;
+    padding: 10px 0;
+}
+header .container{
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    height: 5rem;
+}
+header figure{}
+
+header figure img{
+    width: 100%;
+    max-width: 120px;
+}
+header .titulo{
+    color: white;
+    font-size: 32px;
+    font-weight: 500;
+    margin-top: 10px;
+
+}
+
+
+/* header .container main .secaoFormulario {
+    margin-left: 50px;
+} */
+
+
+.auto-typed{
+   
+    font-weight: 200;
+}
+
+main{
+    display: flex;
+    height: 84vh;
+}
+main section {
+    width: 50%;
+    padding: 100px 40px;
+}
+.secaoFormulario{
+    background-color: #034078;
+
+}
+.secaoFormulario__formulario{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    margin: 0 0 0 auto;
+    
+}
+
+.secaoFormulario__formulario input{
+    margin-bottom: 10px;
+    height: 30px;
+    border: none;
+    outline: 0;
+    border-radius: 2px;
+    padding: 0 10px;
+}
+.secaoFormulario__formulario button{
+   margin-top: 20px;
+   height: 30px;
+   background-color: hsl(0deg, 0% 100% / 90%);
+   border-radius: 2px;
+   border: none;
+   cursor: pointer;
+   text-transform: uppercase;
+
+}
+
+.footer p{
+    color: aliceblue;
+    margin-top: 220px;
+    text-align: center;
+    font-weight: 200;
+}
+
+.secaoListaContatos{
+background-color: hsl(228deg 70% 28% / 10%);
+}
+.secaoListaContatos__lista{
+   width: 100%;
+   max-width: 450px;
+    
+}
+.secaoListaContatos__lista li{
+    background-color: white;
+    padding: 25px;
+    box-shadow: 3px 3px 14px -14px #4f4f4f;
+    border-radius: 12px;
+    margin-bottom: 25px;
+}
+.secaoListaContatos__lista li button{
+    float: right;
+    background-image: url(../img/trash.svg);
+    width: 30px;
+    height: 30px;
+    background-size: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 2px solid #d10505;
+    border-radius: 100%;
+    background-color: hsl(0deg 95% 44% / 5%);
+
+    cursor: pointer;
+}
+.secaoListaContatos__lista li h2{
+    font-size: 18px;
+    font-weight: 600;
+
+}
+.secaoListaContatos__lista li p{
+    margin: 5px 0;
+}
+.secaoListaContatos__lista li span{}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    
+
+    header .container{
+        width: 100%;
+        max-width: 300px;
+        margin: 0 auto;
+        height: 5rem;
+    }
+    header figure{}
+    
+    header figure img{
+        width: 100%;
+        max-width: 100px;
+        
+    }
+    header .titulo{
+        color: white;
+        font-size: 22px;
+        font-weight: 500;
+        margin-top: 10px;
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    main section{
+        width: 0;
+        padding: 10px 5px;
+    }
+    .secaoFormulario__formulario{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    margin: 0 0 0 auto;
+    }
+    
+    .secaoListaContatos{
+        background-color: hsl(228deg 70% 28% / 10%);
+        }
+        .secaoListaContatos__lista{
+           width: 100%;
+           max-width: 250px;
+            
+        }
+        .secaoListaContatos__lista li{
+            background-color: white;
+            padding: 25px;
+            box-shadow: 3px 3px 14px -14px #4f4f4f;
+            border-radius: 12px;
+            margin-bottom: 25px;
+        }
+        .secaoListaContatos__lista li button{
+            float: right;
+            background-image: url(../img/trash.svg);
+            width: 20px;
+            height: 20px;
+            background-size: 12px;
+            background-position: center;
+            background-repeat: no-repeat;
+            border: 2px solid #d10505;
+            border-radius: 100%;
+            background-color: hsl(0deg 95% 44% / 5%);
+        
+            cursor: pointer;
+        }
+        .secaoListaContatos__lista li h2{
+            font-size: 18px;
+            font-weight: 600;
+        
+        }
+        .secaoListaContatos__lista li p{
+            margin: 5px 0;
+        }
+        .secaoListaContatos__lista li span{}
+    
+}

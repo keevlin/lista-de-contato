@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
+    <title>Lista de contato</title>
+
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css">
+
+</head>
+
+<body>
+    <div></div>
+
+    <header>
+        <div class="container">
+            <figure>
+                <img src="./assets/img/logo.png" alt="Logo">
+            </figure>
+            <h1 class="titulo">Lista de<span class="auto-typed"></span></h1>
+
+        </div>
+
+    </header>
+
+    <main>
+        <section class="secaoFormulario">
+            <div class="secaoFormulario__formulario">
+                <input type="text" id="campoNome" placeholder="Nome" required>
+                <input type="email" id="campoEmail" placeholder="Email">
+                <input type="tel" id="campoTelefone" data-mask="(00)0000-0000" data-mask-selectonfocus="true"
+                    placeholder="Telefone" required>
+                <button class="btnAdd" id="botaoAdicionar">Adicionar</button>
+                <div class="footer">
+                    <p>Todos os direitos reservados Kevlin &copy;</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="secaoListaContatos">
+            <ul class="secaoListaContatos__lista">
+                <!-- <li>
+                    <p>Não há contato na sua lista</p>
+                </li>
+                <li>
+                    <button id="removerContato"></button>
+                    <h2 id="nome">Jessica</h2>
+                    <p>jessica@mail.com</p>
+                    <span>27 9999-9999</span>
+                </li> -->
+
+            </ul>
+        </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://unpkg.com/scrollreveal@4.0.9/dist/scrollreveal.js"></script>
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
