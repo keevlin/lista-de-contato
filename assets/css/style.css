@@ -124,7 +124,7 @@ background-color: hsl(228deg 70% 28% / 10%);
 }
 .secaoListaContatos__lista li span{}
 
-@media (min-width: 320px) and (max-width: 480px) {
+/* @media (min-width: 320px) and (max-width: 480px) {
     
 
     header .container{
@@ -202,4 +202,4 @@ background-color: hsl(228deg 70% 28% / 10%);
         }
         .secaoListaContatos__lista li span{}
     
-}
+} */
